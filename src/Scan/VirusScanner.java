@@ -67,6 +67,10 @@ public class VirusScanner {
         		
         System.out.println("No malware detected in file: " + filePath);
     }
+    
+    public void deleteMalware() {
+    	
+    }
 
     public static void main(String[] args) throws NoSuchAlgorithmException {
         if (args.length < 2) {
